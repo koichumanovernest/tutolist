@@ -1,0 +1,122 @@
+.divBar{
+  button{
+    background: blue;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    transition: 1s;
+  color: #fff;
+
+  }
+  button:hover{
+    transition: 3s;
+    background: red;
+    box-shadow: 1px 1px 10px 10px red;
+  }
+}
+.list{
+  color: blue;
+}
+
+.inputs1{
+  background: blue;
+  width: 300px;
+  height: 40px;
+  border-radius:35px;
+  border: none;
+  margin-top: 20px;
+  transition: 2s;
+  color: #fff;
+
+
+}
+.inputs1:hover{
+  box-shadow: 1px 1px 10px 10px red;
+  background: red;
+  transition: 1s;
+}
+
+.div1{
+
+  button{
+    background: blue;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 10px;
+    border: none;
+    transition: 1s;
+  color: #fff;
+
+
+  }
+  button:hover{
+    background: red;
+    box-shadow: 1px 1px 10px 10px red;
+    transition: 1s;
+  }
+}
+.input2{
+  width: 300px;
+  height: 40px;
+  background: blue;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  transition: 1s;
+}
+.input2:hover{
+  background: red;
+    box-shadow: 1px 1px 10px 10px red;
+    transition: 1s;
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background: blue;
+  img{
+    width: 300px;
+  height: 300px;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.edit {
+  button{
+
+    background:blue;
+    color: wheat;
+    width: 100px;
+    margin-left: 60px;
+    margin-top: 20px;
+    height: 40px;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    transition: 1s;
+  }
+  button:hover{
+    background: red;
+    box-shadow: 1px 1px 10px 10px red;
+    transition: 1s;
+
+  }
+}
+.todo{
+  color: blue;
+}
